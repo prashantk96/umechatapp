@@ -3,6 +3,7 @@
 import 'package:firebase_core/firebase_core.dart' show FirebaseOptions;
 import 'package:flutter/foundation.dart'
     show defaultTargetPlatform, kIsWeb, TargetPlatform;
+import 'package:umechat/api_key_controller.dart';
 
 /// Default [FirebaseOptions] for use with your Firebase apps.
 ///
@@ -47,7 +48,7 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDVCcMN9pWR7m8RSqUQ_8x6tVO6d69j3-Q',
+    apiKey: ApiKeyController.webKey,
     appId: '1:827349109259:web:4da3156945439b1b16150e',
     messagingSenderId: '827349109259',
     projectId: 'umechat-1a276',
@@ -56,7 +57,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCmsnm0kxCZwiLqmMJKSRXxPUxHR1x0s-g',
+    apiKey: ApiKeyController.androidKey,
     appId: '1:827349109259:android:61653c525cab048616150e',
     messagingSenderId: '827349109259',
     projectId: 'umechat-1a276',
@@ -64,7 +65,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDoGNq-edYTZ-WRnX0uqBpilWQqcl3XiS0',
+    apiKey: ApiKeyController.iosKey,
     appId: '1:827349109259:ios:cae8d594f0684a9416150e',
     messagingSenderId: '827349109259',
     projectId: 'umechat-1a276',
