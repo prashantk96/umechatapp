@@ -69,9 +69,10 @@ class DefaultFirebaseOptions {
     messagingSenderId: '827349109259',
     projectId: 'umechat-1a276',
     storageBucket: 'umechat-1a276.appspot.com',
-    androidClientId: '827349109259-v2thum0336ch4l6ka02bm3cd66jg707g.apps.googleusercontent.com',
-    iosClientId: '827349109259-cghvq3qercem18gh5rtu01e2g54933i8.apps.googleusercontent.com',
+    androidClientId:
+        '827349109259-v2thum0336ch4l6ka02bm3cd66jg707g.apps.googleusercontent.com',
+    iosClientId:
+        '827349109259-cghvq3qercem18gh5rtu01e2g54933i8.apps.googleusercontent.com',
     iosBundleId: 'com.example.umechat',
   );
-
 }

@@ -47,3 +47,4 @@ app.*.map.json
 /macos
 /linux
 /web
+/lib/api_key_controller.dart
