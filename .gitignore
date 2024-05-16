@@ -47,4 +47,5 @@ app.*.map.json
 /macos
 /linux
 /web
-/lib/api_key_controller.dart
+lib/api_key_controller.dart
+lib/firebase_options.dart
